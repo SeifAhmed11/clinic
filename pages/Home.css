@@ -1,0 +1,97 @@
+header{
+    margin-top: 0;
+    background-color: var(--bg-color);
+    width: 70%;
+    margin: auto;
+}
+
+header .headerBox{
+    position: relative;
+    max-width: 100%;
+}
+
+header .row{
+    margin: 50px 0;
+    width: 100% !important;
+}
+
+header .row h5{
+    color: #696cd4;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+header h2{
+    color: var(--main-color);
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+header button{
+    background-color: var(--orange-color) !important;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 4px !important;
+    transition: .2s ease;
+}
+
+header button a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    transition: .2s ease;
+}
+
+header button:hover a{
+    color: #ede2e2;
+}
+
+header button:hover{
+    opacity: 0.88;
+}
+
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 1.8s infinite alternate;
+    transition: .3s ease all;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+header svg{
+    color: #696cd46e ;
+    font-size: 40px;
+    border-radius: 7px;
+    position: absolute;
+    left: 0;
+    animation: mover 1.9s infinite alternate;
+}
+
+.iqon_sq{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    animation: mover 3.0s infinite alternate;
+}
+
+.pls{
+    max-width: 9%;
+    margin-top: 70px;
+    animation: mover 2.9s infinite alternate;
+}
